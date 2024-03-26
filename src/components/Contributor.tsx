@@ -39,7 +39,7 @@ const Contributor: React.FunctionComponent<ContributorProps> = ({
         {contributor.contributions} commits
       </p>
       <div className="flex justify-center mt-5">
-        <Link href={contributor.repos_url}>
+        <Link href={`/repos/${contributor.login}`}>
           <button className="text-blue-100 border-2 border-solid border-blue-100 rounded-[5px] px-4 py-2 text-sm">
             VIEW REPOSITORIES
           </button>
