@@ -19,6 +19,7 @@ const config: Config = {
         "black-100": "#121212",
         "black-50": "#545454",
         "blue-100": "#4474FF",
+        "grey-50": "#C4C4C4",
       },
     },
   },
