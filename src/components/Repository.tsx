@@ -12,7 +12,7 @@ interface RepositoryProps {
 
 const Repository: React.FunctionComponent<RepositoryProps> = ({ repo }) => {
   return (
-    <div className="bg-white w-[500px] p-6 rounded-lg">
+    <div className="bg-white w-[500px] max-sm:w-full  p-6 max-sm:p-4 rounded-lg">
       <div>
         <p className="mt-4 text-lg font-bold">Name: {repo.name}</p>
         <p className="text-base font-light text-black-50">

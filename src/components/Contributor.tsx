@@ -17,7 +17,7 @@ const Contributor: React.FunctionComponent<ContributorProps> = ({
   contributor,
 }) => {
   return (
-    <div className="bg-white w-[320px] p-6 rounded-lg">
+    <div className="bg-white w-[320px] max-sm:w-full p-6 rounded-lg">
       <div className="flex justify-between items-start">
         <div className="flex items-end">
           <div className="bg-avatar-bg p-1">

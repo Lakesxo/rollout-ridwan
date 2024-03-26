@@ -67,7 +67,7 @@ export default function Home() {
   }, [currentPage]);
 
   return (
-    <main className="bg-grey-100 min-h-screen p-9">
+    <main className="bg-grey-100 min-h-screen p-9 max-sm:p-5">
       <h1 className="text-black-100 font-bold text-lg pb-3 mb-7 border-b-[#c4c4c4] border-b border-solid">
         Top Contributors
       </h1>
