@@ -22,8 +22,9 @@ export default function Repos() {
         toast({
           variant: "destructive",
           title: "Uh oh! Something went wrong.",
-          description: error,
+          description: error.message,
         });
+        setIsLoading(false);
       });
     setIsLoading(false);
     setIsLoading(true);
@@ -44,8 +45,9 @@ export default function Repos() {
           toast({
             variant: "destructive",
             title: "Uh oh! Something went wrong.",
-            description: error,
+            description: error.message,
           });
+          setIsLoading(false);
         });
       setCurrentPage(currentPage + 1);
       setIsLoading(false);
