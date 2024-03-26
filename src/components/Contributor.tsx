@@ -30,9 +30,11 @@ const Contributor: React.FunctionComponent<ContributorProps> = ({
           </div>
           <p className="text-xs ml-2 text-black-50 font-light">@github</p>
         </div>
-        <button>
-          <Image src={map} alt="map" width={32} height={32} />
-        </button>
+        <Link href={`/location/${contributor.login}`}>
+          <button>
+            <Image src={map} alt="map" width={32} height={32} />
+          </button>
+        </Link>
       </div>
       <p className="mt-4 text-lg font-bold">{contributor.login}</p>
       <p className="text-base font-light text-black-50">
